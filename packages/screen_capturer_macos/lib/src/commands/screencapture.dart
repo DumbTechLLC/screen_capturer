@@ -5,7 +5,7 @@ import 'package:shell_executor/shell_executor.dart';
 
 final Map<CaptureMode, List<String>> _knownCaptureModeArgs = {
   CaptureMode.region: ['-i', '-r'],
-  CaptureMode.screen: ['-C'],
+  CaptureMode.screen: [],
   CaptureMode.window: ['-i', '-w'],
 };
 
